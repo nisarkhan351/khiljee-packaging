@@ -1,0 +1,203 @@
+/* Mobile screen */
+@media screen and (max-width: 576px) {
+  .nav-item a{
+    color:rgb(255, 204, 0);
+    font-size: 18px;
+    font-weight:bold;
+    padding-left:20px !important;
+}
+.ht-left ,.ht-center, .adrss {
+    display: none;
+}
+.banner {
+    width: 100%;
+    height:450px;
+    background:url('../image/banner.webp')no-repeat center;
+    background-size: cover; 
+    padding-bottom: 142px;
+}
+.heading {
+   display: none;
+}
+
+.box-section{
+  padding:40px 0px !important;
+  border-top: 2px dotted rgb(210, 208, 208);
+}
+/* .heading h1{
+  font-size: 12px !important;
+}
+.heading button{
+    font-size: 8px !important;
+    padding: 2px 12px;
+    margin: 0px !important ;
+} */
+
+.mapp iframe{
+    width: 100%;
+    height:auto;
+}
+.boxes img{
+    margin: auto;
+    margin-top: 40px;
+
+}
+.bags img{
+    margin: auto;
+    margin-top: 40px;
+
+}
+.contact input{
+  margin: 10px;
+  padding: 8px 8px;
+  padding-right:10px !important;
+  font-size:10px !important;
+  border-radius: 10px;
+  max-width: 100%;
+}
+.contact textarea{
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 8px;
+  resize: none;
+  max-width: 100%;
+}
+.office-info i{
+  color:rgb(13, 7, 63);
+  font-size: 10px !important;
+}
+.office-info label{
+  color:black;
+  font-size: 15px;
+  padding-left: 10px !important;
+}
+.office-info p{
+  color:black;
+  font-size: 10px !important;
+  padding-left: 10px !important;
+}
+.fa-angles-left{
+    display: none !important;
+}
+.fa-angles-right{
+    display: none !important;
+}
+.enq-btn button{
+      font-size: 17px !important;
+    padding: 2px 12px;
+    margin: 9px !important;
+}
+.cname{
+  font-size: 18px;
+}
+.navbar-brand img{
+  width: 19%;
+  display: none;
+}
+.gallery-img img{
+  width: 100% !important;
+}
+ .whatsapp-img {
+            position: fixed;
+            width: 60px;
+            bottom: 0px;
+            right: 0px;
+            z-index: 99999999999999;
+        }
+
+}
+
+
+
+
+
+
+
+ /* tablet screen */
+@media  ( min-width:557px) and (max-width:768px) {
+  
+  .heading {
+    padding: 120px 10px 10px 30px;
+  }
+.heading h1{
+  font-size: 23px !important;
+}
+.heading button{
+  font-size: 15px;
+    font-weight: bold;
+    padding: 5px 12px;
+}
+.banner {
+    width: 100%;
+    height: 442px;
+    background: url(../image/banner.webp)no-repeat center;
+    background-size: cover;
+    padding-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+.boxes img {
+    width: 500px !important;
+    height: 500px !important;
+}
+.boxes label {
+    font-weight: 500;
+    font-size: 25px;
+}
+.bags label {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.gallery-img img{
+    width: 85% !important;
+}
+.bags img{
+  width: 75% !important;
+}
+ .whatsapp-img {
+            position: fixed;
+            width: 60px;
+            bottom: 0px;
+            right: 0px;
+            z-index: 99999999999999;
+        }
+
+
+
+}
+/* moddile tablet screen */
+@media  ( min-width:887px) and (max-width:1200px) {
+.office-info{
+  padding-left: 80px !important;
+}
+ .whatsapp-img {
+            position: fixed;
+            width: 60px;
+            bottom: 0px;
+            right: 0px;
+            z-index: 99999999999999;
+        }
+}
+
+
+
+
+
+@media screen and (max-width: 960px) { 
+  #columns figure { width: 24%; }
+}
+@media screen and (max-width: 767px) {
+  #columns figure { width:32%;}
+}
+@media screen and (max-width: 600px) {
+  #columns figure { width: 49%;}
+}
+@media screen and (max-width: 500px) {
+  #columns figure { width: 100%;}
+}
+
+@media screen and (min-width: 992px){
+    
+}

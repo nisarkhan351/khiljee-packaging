@@ -1,0 +1,595 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Khiljeepackaging</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="icon" type="image/x-icon" href="image/logokp2.png">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .owl-nav i {
+            font-size: 50px;
+            position: absolute;
+        }
+        .owl-prev {
+            position: absolute;
+            left:0px;
+            top: 40%;
+        }
+
+        .owl-next {
+            position: absolute;
+            right: 40px;
+            top: 40%;
+        }
+        .fa-circle-arrow-left,.fa-circle-arrow-right{
+            color: rgb(206, 206, 206);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid header-top d-flex justify-content-around bg-light py-2">
+            <div class="ht-left">
+                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="ht-center">
+                <i class="fa-sharp fa-solid fa-phone"></i>
+                +91 8952939786
+                <i class="fa-regular fa-envelope"></i>
+                farukhkhiljee786@gmail.com
+            </div>
+            <div class="ht-right d-flex">
+                <div class="adrss">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Jodhpur(Rajasthan)
+                </div>
+
+                <i class="fa-solid fa-user"></i>
+                <a href="">Log-in</a> /
+                <a href="">sign-up</a>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="container-fluid" style="position: absolute; top: 50px;">
+                <div class="container">
+                    <div class="row">
+                        <nav class="navbar navbar-expand-lg ">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="./image/logokp2.png" alt="" width="80">
+                                <label class="cname">KHILJEE PACKAGING</label>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                                <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#home">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#about">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#product">Product</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#gallery">Gallery</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#test">Testimonals</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contact">Contect Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false"
+                            tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                            <div class="offcanvas-header">
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="./image/logokp2.png" alt="" width="80">
+                                    <label class="cname">KHILJEE PACKAGING</label>
+                                </a>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Product</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Gallery</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Testimonals</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contect Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner" id="home">
+            <div class="heading text-left">
+                <h1 class="fs-2">Leading Suppliers Of <br> <strong>Corrugated Boxes</strong></h1>
+                <button type="button" class="btn btn-warning my-2" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Enquiry Now</button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content w-75">
+                            <div class="modal-header ">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Send Enquiry</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="exampleInputPassword1"
+                                        placeholder="Enter name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Number</label>
+                                    <div class="d-flex enquiry-mobile ">
+                                        <div class="c-code">
+                                            <select name="" id="" class="form-control rounded-0 rounded-start pe-4">
+                                                <option value="">+91</option>
+                                                <option value="">+93</option>
+                                                <option value="">+76</option>
+                                                <option value="">+56</option>
+                                                <option value="">+34</option>
+                                            </select>
+                                        </div>
+                                        <div class="">
+                                            <input type="text" class="form-control rounded-0 rounded-end pe-5" id="exampleInputPassword1"
+                                                placeholder="Enter number">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Email</label>
+                                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Massage</label>
+                                    <textarea class="form-control" id="" cols="30" rows="5" placeholder="Enter Massage"></textarea>
+                                </div>
+                            </div>
+                                <div class="text-center enq-btn">
+                                <button type="button" class="btn btn-warning  mx-4 my-3 rounded-5">SUBMIT</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container-fluid box-section text-center" id="cbox">
+            <h3><strong>Corrugated Box</strong></h3>
+            <div class=" boxes row mx-auto justify-content-around  py-3 text-center">
+                <div class="col-lg-2 col-md-6 col-sm-12 d-flex flex-column ">
+                    <img src="image/cardboard-box-1.png" alt="" class="img-fluid  bg-light rounded-4 m-auto ">
+                    <label>Regular Slotted Box</label>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12 d-flex flex-column">
+                    <img src="image/istockphoto-1282219840-170667a-removebg-preview.png" alt=""
+                        class="img-fluid m-auto  bg-light rounded-4 ">
+                    <label>Printed Box</label>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12 d-flex flex-column">
+                    <img src="image/duplexmore-PhotoRoom.png-PhotoRoom.png" alt=""
+                        class="img-fluid m-auto bg-light rounded-4 ">
+                    <label>White Duplex Box</label>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12 d-flex flex-column">
+                    <img src="image/storage-box-PhotoRoom.png-PhotoRoom.png" alt=""
+                        class="img-fluid m-auto  bg-light rounded-4">
+                    <label>Storage Box</label>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid bag-section text-center ">
+            <h3><strong>Plastic Bags</strong></h3>
+            <div class=" bags row mx-auto justify-content-around  py-3">
+                <div class="col-lg-2 col-md-6 col-sm-12">
+                    <img src="image/pp-laminated-bag.png" alt="" class="img-fluid  bg-light m-auto rounded-4" width="300">
+                    <label>Liminated PP Bag</label>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12 ">
+                    <img src="image/plain-laminated-hdpe-woven-sack.png" alt="" class="img-fluid m-auto bg-light rounded-4"
+                        width="300">
+                    <label>HDPE Woven Bag</label>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12">
+                    <img src="image/printed-pp-woven-bag-.png" alt="" class="img-fluid  bg-light m-auto rounded-4" width="300">
+                    <label>Printed PP Woven Bag</label>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12">
+                    <img src="image/pp-woven-roll.png" alt="" class="img-fluid  bg-light m-auto rounded-4" width="300">
+                    <label>Fabric PP Woven Roll</label>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="dot-border"></div>
+    <section>
+        <div class="container-fluid product text-center pt-5 mt-5" id="product" >
+            <h3><strong>Product</strong></h3>
+            <div class="owl-carousel owl-theme row mx-auto justify-content-around  py-5" id="slider1">
+                <div class="item ">
+                    <img src="image/pp-laminated-bag.png" alt="" class="img-fluid  bg-light rounded-4">
+                    <label>Liminated PP Bag</label>
+                </div>
+                <div class="item">
+                    <img src="image/crbox7.png" alt="" class="img-fluid  bg-light rounded-4" width="300">
+                    <label>Corrugated Box</label>
+                </div>
+                <div class="item">
+                    <img src="image/die-cut-corrugated-boxes-trident-pbi-1-removebg-preview.png" alt=""
+                        class="img-fluid  bg-light rounded-4">
+                    <label>Box</label>
+                </div>
+                <div class="item">
+                    <img src="image/white-duplex.png" alt="" class="img-fluid  bg-light rounded-4">
+                    <label>White Duplex Box</label>
+                </div>
+                <div class="item">
+                    <img src="image/delivery-box-mockup-PhotoRoom.png-PhotoRoom.png" alt=""
+                        class="img-fluid  bg-light rounded-4" width="300">
+                    <label>Mockup Box</label>
+                </div>
+                <div class="item">
+                    <img src="image/delivery-post-transportation-gift-boxes-PhotoRoom.png-PhotoRoom.png" alt=""
+                        class="img-fluid  bg-light rounded-4">
+                    <label>Gift Box</label>
+                </div>
+                <div class="item">
+                    <img src="image/cR5-PhotoRoom.png-PhotoRoom.png" alt="" class="img-fluid  bg-light rounded-4">
+                    <label>Cardboard Box</label>
+                </div>
+                <div class="item">
+                    <img src="image/open-brown-cardboard-box-isolated-white-PhotoRoom.png-PhotoRoom.png" alt=""
+                        class="img-fluid  bg-light rounded-4">
+                    <label>Dark Brown box</label>
+                </div>
+                <div class="item">
+                    <img src="image/crprint.png" alt="" class="img-fluid  bg-light rounded-4">
+                    <label>Printed Box</label>
+                </div>
+                <div class="item">
+                    <img src="image/crbox3.png" alt="" class="img-fluid  bg-light rounded-4">
+                    <label>Handle cut box</label>
+                </div>
+                <div class="item">
+                    <img src="image/Bottle-Packaging-Printed-Corrugated-Box-PhotoRoom.png-PhotoRoom.png" alt=""
+                        class="img-fluid  bg-light rounded-4">
+                    <label>Bottle Printed Box</label>
+                </div>
+                <div class="item">
+                    <img src="image/prbox5-removebg-preview.png" alt="" class="img-fluid  bg-light rounded-4">
+                    <label>Cardboard box</label>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="dot-border"></div>
+
+    <section>
+        <div class="container-fluid about " id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <figure>
+                            <img src="image/about.webp" alt="" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="col-lg-6 text-center pt-5 mt-5">
+                        <h3>About Us</h3>
+                        <p style="padding-left: 20px; text-align: justify;">We Khiljee Packaging, situated at Jodhpur, Rajasthan are one of the pioneers in the industry
+                            with
+                            our constant endeavour to deliver the highest quality of packaging material, plastic bags to
+                            our
+                            customers at the
+                            competitive price & also reach our clientele needs & demands on and off the time whenever
+                            they
+                            want. We also provide
+                            quality hologram, stickers and labels at very reasonable rates.The raw materials used in the
+                            manufacturing process are
+                            sourced from reliable vendors of the market. All our bags are quality tested by highly
+                            experienced auditors to ensure
+                            that they are free of even the smallest of defects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="dot-border"></div>
+
+    <section>
+        <div class="container-fluid gallery text-center pt-5 " id="gallery">
+            <h3><strong>Gallery</strong></h3>
+            <div class="gallery-img row mx-auto justify-content-around  py-5">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="1000">
+                            <img src="image/gallery1.webp" class=" w-50 img-fluid  bg-light rounded-4" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="image/empty-closed-boxes-white.jpg" class=" w-50" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1000">
+                            <img src="image/gallery3.webp" class=" w-50" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="image/gallery5.webp" class=" w-50" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1000">
+                            <img src="image/woman-packing-box-with-tape.jpg" class=" w-50" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="image/male-warehouse-worker-using-bar-code-scanner-analyze-newly-arrived-goods-further-placement-storage-department.jpg"
+                                class=" w-50" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1000">
+                            <img src="image/set-three-unlabeled-similar-craft-cardboard-boxes-with-covers-beautifully-arranged-studio-with-white-walls.jpg"
+                                class=" w-50" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class=" container-fluid testimonial pt-5 bg-light " id="test">
+            <h3 class="text-center"><strong>Testimonals</strong></h3>
+            <div class="container p-5">
+                <div class="row justify-content-between">
+                    <div class="col-lg-5">
+                        <div class="imgtest">
+                            <img src="image/testminial.jpg" alt="" class="rounded" />
+
+                        </div>
+                    </div>
+                    <div class="col-lg-7 d-flex justify-content-between pt-5 ">
+                        <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="1000">
+                                    <div class="col d-flex">
+                                        <div class="coma">
+                                            <img src="image/coma.webp" alt="" class="img-fluid" width="70">
+                                        </div>
+                                        <div class="res ps-4">
+                                            <h5>Ajay Sharma</h5>
+                                            <p>I would highly recommend them to people who need any type of packaging
+                                                material or
+                                                similar type material for your
+                                                business</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <div class="col d-flex ">
+                                        <div class="coma">
+                                            <img src="image/coma.webp" alt="" class="img-fluid" width="70">
+                                        </div>
+                                        <div class="res ps-4">
+                                            <h5>Farukh Ali</h5>
+                                            <p>I had ordered printed bags for promotional purposes. They were really
+                                                trendy and durable.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <div class="dot-border"></div>
+    <section>
+        <div class=" container-fluid contact text-center" id="contact">
+            <h3 class="text-center py-4"><strong>Contact Us</strong></h3>
+            <div class="container  ">
+                <div class="row text-center justify-content-center ">
+                    <div class="col-lg-4 col-md-12 col-sm-12 ">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="number">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <textarea name="" id="" cols="32" rows="6" placeholder="Massage"></textarea>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-warning my-4">SUBMIT</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid office pt-5 pb-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-5 mapp">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57290.82479936124!2d72.93134733124998!3d26.1746615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394189f6e6e39a87%3A0xf51110398ed5b74b!2sKhiljee%20Packaging!5e0!3m2!1sen!2sin!4v1673170684278!5m2!1sen!2sin"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" class="rounded"></iframe>
+                    </div>
+                    <div class="col-lg-5  mt-5">
+                        <div class="office-info d-flex ">
+                            <div class=""><i class="fa-solid fa-location-dot"></i></div>
+                            <div class=""><label> Jodhpur(Rajasthan)</label>
+                                <p>Plot No. 06 Kh. No. 42/3 Tanawada Gav Road Tanawada, Jodhpur, Rajasthan 342013</p>
+                            </div>
+                        </div>
+                        <div class="office-info d-flex">
+                            <div class=""><i class="fa-sharp fa-solid fa-envelope"></i></div>
+                            <div class="">
+                                <label>Enquiry</label>
+                                <p>farukhkhiljee786@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="office-info d-flex">
+                            <div>
+                                <i class="fa-solid fa-mobile-retro"></i>
+                            </div>
+                            <div>
+                                <label for="">Call us</label>
+                                <p>+91 8952939786</p>
+                            </div>
+                        </div>
+                        <div class="office-info d-flex">
+                            <div>
+                                <i class="fi fi-rr-alarm-clock"></i>
+                            </div>
+                            <div>
+                                <label for=""> Our Timing</label>
+                                <p>Mon-Sun : 09.00 AM - 5.30 AM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="border-top: 10px solid #f0e6e6;">
+        <div class="container-fluid py-3 footer">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h5>USEFUL LINKS</h5>
+                        <ul>
+                            <li>PRIVACY POLICY</li>
+                            <li>
+                                <a href="#cbox">CORRUGATED BOX</a>
+                            </li>
+                            <li>
+                                <a href="#about">ABOUT US</a>
+                            </li>
+                            <li>MORE...</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h5>PAGE</h5>
+                        <ul>
+                            <li>
+                                <a href="#home">HOME</a>
+                            </li>
+                            <li>
+                                <a href="#product">PRODUCTS</a>
+                            </li>
+                            <li>
+                                <a href="#gallery">GALLERY</a>
+                            </li>
+                            <li>
+                                <a href="#test">TESTIMONIALS</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h5>CONTACT</h5>
+                        <ul>
+                            <li>Plot No. 06 Kh. No. 42/3 Tanawada Gav Road Tanawada, Jodhpur, Rajasthan 342013</li>
+                            <li>farukhkhiljee786@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h5>CONNECT</h5>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-square-twitter"></i>
+                        <i class="fa-brands fa-square-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    $('#slider1').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        dots: false,
+        autoplayHoverPause: true,
+        autoplayTimeout: 15000,
+        smartSpeed: 1000,
+        navText: [
+            '<i class="fa-solid fa-circle-arrow-left"></i>',
+            '<i class="fa-solid fa-circle-arrow-right"></i>'
+        ],
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 5
+            }
+        }
+    })
+</script>
+
+</html>
